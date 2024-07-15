@@ -1,5 +1,5 @@
 ## **Project Demo**
-[Live Demo](https://react-plumbing-app.netlify.app/](https://kasbass-nigeria-enterprises.netlify.app/)
+[Live Demo](https://kasbass-nigeria-enterprises.netlify.app/)
 
 ## **Description**
 **Plumbing Services website** is a web-based platform that showcases the plumbing services offered by a plumbing company. The website is designed to inform users about the company's services, team, and contact details.
