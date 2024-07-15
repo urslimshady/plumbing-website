@@ -1,12 +1,12 @@
 ## **Project Demo**
-[Live Demo](https://react-plumbing-app.netlify.app/)
+[Live Demo](https://react-plumbing-app.netlify.app/](https://kasbass-nigeria-enterprises.netlify.app/)
 
 ## **Description**
-**Plumbing Services website** is a web-based platform that showcases the plumbing services offered by a plumbing company. The website is designed to provide users with information about the company's services, team, and contact details.
+**Plumbing Services website** is a web-based platform that showcases the plumbing services offered by a plumbing company. The website is designed to inform users about the company's services, team, and contact details.
 
 **Features:**
 
-- Home page: A landing page that provides an overview of the company's services and highlights their unique selling points.
+- Home page: A landing page overviews the company's services and highlights its unique selling points.
 - About Us: A page that provides information about the company's history, team, and values.
 - Services: A page that lists the plumbing services offered by the company and provides detailed information about each service.
 - Testimonials: A page that displays testimonials from satisfied customers to build trust and credibility.
@@ -63,7 +63,7 @@ npm install
 ```
 
 ## **Run On Server**
-To run the project on server, run below command
+To run the project on the server, run the below command
 
 ```
 npm start
@@ -82,7 +82,7 @@ Give a ⭐️ if you like this project!
 
 ## 🚀 **About Me**
 
-I'm full stack software developer, Computer science, and Microverse student.
+I'm a full stack software developer, Computer science, and Microverse student.
 
 **Stack:** Python, JavaScript, Bootstrap, Ruby, Rails, React, Redux. Available for hire!
 ## 🤝 **Contributing**
