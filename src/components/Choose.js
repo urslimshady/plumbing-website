@@ -4,11 +4,9 @@ const Choose = () => {
   return (
     <div className=" flex flex-col space-y-6 p-10  md:mx-5 choose text-white gap-7">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="text-center text-[30px]">Why Choose Us</h2>
+        <h2 className="text-center text-[30px]">हमें क्यों चुनें</h2>
         <p className="text-center text-zinc-300 max-w-lg text-[16px]">
-          Choosing us as your plumber means you will be getting a reliable and
-          experienced professional who has the expertise to deliver quality
-          services
+        हमें अपने प्लंबर के रूप में चुनने का मतलब है कि आपको एक विश्वसनीय और अनुभवी पेशेवर मिलेगा जिसके पास गुणवत्तापूर्ण सेवाएं देने की विशेषज्ञता है।
         </p>
       </div>
       <div className="sm:mx-5 md:mx-20 lg:mx-40 flex flex-col space-y-3">

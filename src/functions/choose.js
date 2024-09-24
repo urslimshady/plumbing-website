@@ -5,28 +5,28 @@ import {SiMicrosoftedge} from 'react-icons/si'
 import { FaCropAlt } from 'react-icons/fa';
 
 export const choose = [
-	{name:"Experienced and Skilled Plumbers",
+	{name:"अनुभवी और कुशल प्लंबर",
 	icon:<FaCropAlt className="h-10 w-10"/>,
-	summary:"Our company has a team of experienced and skilled plumbers who are well-equipped to handle any plumbing issue you may be facing"
+	summary:"हमारी कंपनी के पास अनुभवी और कुशल प्लंबरों की एक टीम है जो आपके सामने आने वाली किसी भी प्लंबिंग समस्या से निपटने के लिए अच्छी तरह से सुसज्जित हैं।"
 	},
 	{
-		name: "Reliable and Efficient Service",
+		name: "विश्वसनीय एवं कुशल सेवा",
 		icon:<FiCodepen className="h-10 w-10" /> ,
-		summary: "We strive to provide reliable and efficient service to our customers. We arrive on time, complete the work quickly and efficiently"
+		summary: "हम अपने ग्राहकों को विश्वसनीय और कुशल सेवा प्रदान करने का प्रयास करते हैं। हम समय पर पहुंचते हैं, काम जल्दी और कुशलता से पूरा करते हैं"
 	},
 	{
-		name: "Competitive Pricing",
+		name: "प्रतिस्पर्धी मूल्य निर्धारण",
 		icon: <SiCodepen className="h-10 w-10" />,
-		summary: "We offer competitive pricing without compromising on the quality of our work"
+		summary: "हम अपने काम की गुणवत्ता से समझौता किए बिना प्रतिस्पर्धी मूल्य निर्धारण की पेशकश करते हैं"
 	},
 	{
-		name: 'Customer Satisfaction',
+		name: 'ग्राहक संतुष्टि',
 		icon: <SiMicrosoftedge className="h-10 w-10" />,
-		summary: "We listen to your needs and concerns, and we work with you to find the best solution for your plumbing issues"
+		summary: "हम आपकी ज़रूरतों और चिंताओं को सुनते हैं, और आपकी पाइपलाइन संबंधी समस्याओं का सर्वोत्तम समाधान खोजने के लिए आपके साथ काम करते हैं"
 	},
 	{
-		name: "24/7 Emergency Service",
+		name: "24/7 आपातकालीन सेवा",
 		icon: <BiTime className="h-10 w-10" />,
-		summary: "We offer 24/7 emergency plumbing services. If you have a plumbing emergency"
+		summary: "हम 24/7 आपातकालीन वायरिंग सेवाएँ प्रदान करते हैं। यदि आपके पास वायरिंग की आपात स्थिति है"
 	}
 ]

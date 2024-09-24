@@ -10,25 +10,18 @@ const About = () => {
             py-40 space-y-6"
       >
         <div>
-          <h1 className="font-bold text-[28px] text-center">Our Mission</h1>
+          <h1 className="font-bold text-[28px] text-center">हमारा उद्देश्य</h1>
           <p className="text-[20px] text-center">
-            kasbass mission is to provide high-quality, reliable, and
-            cost-effective services to customers in their repair and
-            installation needs. Our mission is to be a leader in the industry,
-            setting the standard for safety, innovation, customer service, and
-            quality, and creating a positive work environment for our employees
-            and partners. We strive to be a reliable and responsible partner to
-            our customers, helping them meet their needs through cutting-edge
-            technology, quality workmanship, and cost-efficiency.
+          हम ग्राहकों को उनकी मरम्मत और स्थापना की आवश्यकताओं में उच्च गुणवत्ता, विश्वसनीय और किफायती सेवाएँ प्रदान करते हैं। हमारा मिशन उद्योग में अग्रणी बनना है, सुरक्षा, नवाचार, ग्राहक सेवा, 
+          और गुणवत्ता के लिए मानक स्थापित करना, और हमारे कर्मचारियों और भागीदारों के लिए एक सकारात्मक कार्य वातावरण बनाना है। 
+          हम अपने ग्राहकों के लिए एक विश्वसनीय और जिम्मेदार भागीदार बनने का प्रयास करते हैं, उन्हें नवीनतम तकनीक, गुणवत्तापूर्ण कार्य और लागत-प्रभावशीलता के माध्यम से उनकी आवश्यकताओं को पूरा करने में मदद करते हैं।
           </p>
         </div>
         <div>
-          <h1 className="font-bold text-[28px] text-center">Our Story</h1>
+          <h1 className="font-bold text-[28px] text-center">हमारी कहानी</h1>
           <p className="text-[20px] text-center">
-            Kasbass was founded in 2019 with the goal of becoming the premier
-            provider of plumbing services in the area. The company strives to
-            provide honest and professional service while delivering quality
-            craftsmanship, reasonable prices, and superior customer service.
+          यह 2019 में क्षेत्र में प्रमुख प्लंबिंग सेवाओं का प्रदाता बनने के लक्ष्य के साथ स्थापित किया गया था। कंपनी ईमानदार और पेशेवर सेवा प्रदान करने का प्रयास करती है, 
+          साथ ही गुणवत्तापूर्ण कारीगरी, उचित मूल्य, और उत्कृष्ट ग्राहक सेवा भी देती है।
           </p>
         </div>
       </div>

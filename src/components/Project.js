@@ -16,11 +16,11 @@ const Projects = () => {
   }
 
   return (
-      <div className="bg-white md:mx-5 rounded-md py-8">
-      <h2 className="text-blue-500 font-bold text-[28px] text-center pt-5 pb-2">RECENT WORKS</h2>
+      <div className="md:mx-5 rounded-md py-8">
+      <h2 className="text-blue-500 font-bold text-[30px] text-center pt-5 pb-2">हाल ही का काम</h2>
       <p className="text-gray-500 max-w-lg mx-auto text-center py-1" style={{ fontSize: '16px' }}>
-        Action speaker louder than word, check our successful completed projects to clear all the doubts.
-        We are professional in this work
+      कार्रवाई शब्दों से ज़्यादा ज़ोर से बोलती है, सभी शंकाओं को दूर करने के लिए हमारी सफल पूर्ण परियोजनाओं की जाँच करें। हम इस काम में पेशेवर हैं
+
         </p>
       <div className="mx-auto max-w-2xl py-10 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Projects</h2>

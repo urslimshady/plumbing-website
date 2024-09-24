@@ -11,7 +11,7 @@ const Navbar = () => {
     <header>
       <div className="flex">
         <div className="bg-blue-500 w-1/3 p-3 flex items-center px-5">
-          <span className="text-white font-bold text-[13px] md:text-[18px] company">Kasbass Nigeria Enterprises</span>
+          <span className="text-white font-bold text-[13px] md:text-[18px] company">सचिन वायरिंग और प्लंबिंग</span>
         </div>
         <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
           <div className='flex space-x-3'>
@@ -19,15 +19,15 @@ const Navbar = () => {
             target="_blank" rel="noreferrer" >
             <img className="circle" src={facebook} alt="facebook logo" />
           </a>
-          <a href="https://mobile.twitter.com/GasaliAbass" target="_blank" rel="noreferrer">
+          {/* <a href="https://mobile.twitter.com/GasaliAbass" target="_blank" rel="noreferrer">
             <img className="circle" src={twitter} alt="twitter logo" />
-          </a>
+          </a> */}
           <a href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn" target="_blank" rel="noreferrer">
             <img className="circle" src={google} alt="google logo" />
           </a>
-          <a href="https://www.linkedin.com/in/abass-kasali-369911247" target="_blank" rel="noreferrer">
+          {/* <a href="https://www.linkedin.com/in/abass-kasali-369911247" target="_blank" rel="noreferrer">
             <img className="circle" src={linkedin} alt="linkedin logo" />
-          </a>
+          </a> */}
         </div>
         </div>
       </div>
@@ -35,9 +35,9 @@ const Navbar = () => {
         <div className="md:flex md:flex-col items-baseline hidden ">
           <NavLink to="/" className="link flex items-center">
           <WrenchScrewdriverIcon className="h-6 w-6 md:h-8 md:w-8 text-blue-500" />
-          <span className="md:text-2xl mx-2 text-blue-900 font-bold">Kasbass</span>
+          <span className="md:text-2xl mx-2 text-blue-900 font-bold">सचिन वायरिंग</span>
           </NavLink>
-          <p className="text-sm">Professional Plumber</p>
+          <p className="text-sm">पेशेवर प्लम्बर और इलेक्ट्रीशियन</p>
         </div>
         <div className="flex md:space-x-20 space-x-5">
           <div className="flex space-x-3 items-center">
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <EnvelopeIcon className="h-6 w-6 text-blue-400" />
             </span>
             <div className="flex flex-col justify-center items-baseline">
-              <p className="font-bold">Email us</p>
+              <p className="font-bold">हमें ईमेल करें</p>
               <a href="mailto:kasbassnigenterprises@gmail.com" className="text-sm grey">@kasbassnigenterprises@gmail.com</a>
             </div>
           </div>
@@ -54,8 +54,8 @@ const Navbar = () => {
                 <PhoneIcon className="h-6 w-6 text-blue-400" />
             </span>
             <div className="flex flex-col justify-center items-baseline">
-                <p className="font-bold">Call us on</p>
-                <a href="tel:+2348147603570" className="text-sm grey">(+234) 814 760 3570</a>
+                <p className="font-bold">हमें कॉल करें</p>
+                <a href="tel:+919006557599" className="text-sm grey">(+91) 90065 57599</a>
             </div>
           </div>
         </div>
@@ -65,12 +65,12 @@ const Navbar = () => {
        text-white mx-auto text-[12px] md:text-[15px] font-bold">
         <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
         <NavLink className="link font-bold" to="/">HOME</NavLink>
-        <li><NavLink className="link font-bold" to="/about">ABOUT US</NavLink></li>
-        <li data-to-scrollspy-id="services"><NavLink className="link font-bold"  to="/result">SERVICES</NavLink></li>
-        <li><NavLink className="link font-bold " to="/projects">PROJECTS</NavLink></li>  
+        <li><NavLink className="link font-bold" to="/about">परिचय</NavLink></li>
+        <li data-to-scrollspy-id="services"><NavLink className="link font-bold"  to="/result">सेवाएं</NavLink></li>
+        <li><NavLink className="link font-bold " to="/projects">काम</NavLink></li>  
         </ul>
-        <li className="hidden md:block hover:opacity-90 
-        active:bg-blue-700 bg-blue-500 px-5 py-6 font-bold">BLOG</li>
+        {/* <li className="hidden md:block hover:opacity-90 
+        active:bg-blue-700 bg-blue-500 px-5 py-6 font-bold">BLOG</li> */}
       </nav>
     </header>
   )

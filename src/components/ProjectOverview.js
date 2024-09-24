@@ -129,7 +129,7 @@ export default function Example() {
             </div>
 
             <div className="mt-10">
-              <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
+              <h3 className="text-sm font-medium text-gray-900">मुख्य चरण</h3>
 
               <div className="mt-4">
                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
@@ -143,7 +143,7 @@ export default function Example() {
             </div>
 
             <div className="mt-10">
-              <h2 className="text-sm font-medium text-gray-900">Details</h2>
+              <h2 className="text-sm font-medium text-gray-900">विवरण</h2>
 
               <div className="mt-4 space-y-6">
                 <p className="text-sm text-gray-600">{project.detail}</p>
@@ -153,13 +153,13 @@ export default function Example() {
             {/* Options */}
           <div className="mt-4 lg:row-span-3 lg:mt-0">
             <h2 className="sr-only">project information</h2>
-            <p className="text-3xl tracking-tight text-gray-900">Duration: </p>
+            <p className="text-3xl tracking-tight text-gray-900">अवधि: </p>
             {/* status */}
             <div className="mt-6">
               <h3 className="sr-only">Project Status</h3>
               <div className="flex items-center">
                 <div className="flex items-center">
-                  Work Status: 
+                कार्य स्थिति: 
                 </div>
                 <p className="ml-3 text-sm font-medium text-indigo-600">
                   {project.status}
@@ -168,12 +168,12 @@ export default function Example() {
             </div>
 
             <form className="mt-10">
-              <button
+              {/* <button
                 type="submit"
                 className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Video Presentation
-              </button>
+              </button> */}
             </form>
           </div>
         </div>

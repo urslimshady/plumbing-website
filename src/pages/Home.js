@@ -29,15 +29,15 @@ const Home = () => {
         <div className="relative">
         <div className="relative">
           <div className="py-24 z-50 absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center text-white text-center">
-            <h1 className="text-[44px] md:text-[64px] font-bold my-4 animate__animated animate__zoomIn">Quality Plumbing at its best</h1>
-            <p className="text-[20px] md:text-[26px] mb-3">Best plumbing and maintenance company in Nigeria</p>
+            <h1 className="text-[44px] md:text-[64px] font-bold my-4 animate__animated animate__zoomIn">आपका काम हमारा भरोसा</h1>
+            <p className="text-[20px] md:text-[26px] mb-3">सर्वोत्तम प्लंबिंग और वायरिंग सेवा</p>
             <div className="flex gap-5">
-              <NavLink to="/message">
+              {/* <NavLink to="/message">
                  <button className="p-3 font-bold px-8 border border-blue-500 bg-blue-500 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 active:border-blue-800 duration-100">CONTACT US</button>
               </NavLink>
               <NavLink>
                 <button className="p-3 font-bold px-8 border-2 border-white bg-blue-transparent rounded-md hover:bg-blue-800 hover:border-blue-800 active:bg-blue-900 active:border-blue-900 duration-100">OUR SERVICES</button>
-              </NavLink>
+              </NavLink> */}
             </div>
           </div>
           <img
@@ -52,10 +52,9 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-white shadow md:mx-5 rounded-md py-8 my-5">
-        <h2 className="text-blue-500 font-bold text-[30px] text-center">Plumbing Repairing Service</h2>
+        <h2 className="text-blue-500 font-bold text-[30px] text-center">हमारी सेवाएँ</h2>
         <p className="text-gray-500 max-w-lg mx-auto text-center py-2" style={{ fontSize: '16px' }}>
-          If you need any help with your plumbing, give us a call at kasbass Plumbing. We offer variety of
-          plumbing services in kasbass enterprises
+        यदि आपको अपने पाइपलाइन या विद्युत संबंधी कार्य में किसी सहायता की आवश्यकता है, तो हमें कॉल करें। हम नई स्थापनाओं के लिए भी सेवाएँ प्रदान करते हैं।         
         </p>
         <div className="mx-auto max-w-2xl py-10 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
@@ -80,7 +79,7 @@ const Home = () => {
       <div>
         <Choose />
       </div>
-      <div className="py-5 bg-white shadow rounded-md my-5 md:mx-5 px-3 md:px-0">
+      {/* <div className="py-5 bg-white shadow rounded-md my-5 md:mx-5 px-3 md:px-0">
         <div className='text-center flex flex-col space-y-2 my-6'>
           <h2 className="text-zinc-600 font-bold text-[30px]">TESTIMONIALS</h2>
           <p className="font-bold text-[20px] md:text-4xl text-blue-500">What clients say</p>
@@ -101,7 +100,7 @@ const Home = () => {
           />
           ))}
         </div>
-      </div>
+      </div> */}
     <Footer />
     </>
   );

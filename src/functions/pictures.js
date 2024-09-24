@@ -4,53 +4,64 @@ import service3 from '../logo/service3.jpg'
 import service4 from '../logo/service4.jpg'
 import service5 from '../logo/service5.jpg'
 import service6 from '../logo/service6.jpg'
+import service7 from '../logo/service7.jpg'
+import service8 from '../logo/service8.jpg'
 
 export const service = [
     {
         image: service1,
-        skill: 'Faucet Repair & Installation',
-        alt: 'Faucet Repair & Installation',
-        summary: `we offer faucet repairs and installations. We can repair any existing faucets
-        or install new ones to update your kitchen or bathroom. We make sure that all our work 
-        is done to the highest standards of safety and efficiency.`
+        skill: 'नए पाइपलाइन सिस्टम की स्थापना',
+        alt: 'नए पाइपलाइन सिस्टम की स्थापना',
+        summary: `हम आपके घर या व्यवसाय के लिए नए पाइपलाइन सिस्टम की स्थापना करते हैं। चाहे वह पानी की आपूर्ति हो या ड्रेनेज सिस्टम, 
+        हमारी टीम गुणवत्ता और दीर्घकालिक समाधान सुनिश्चित करती है। हर प्रोजेक्ट में हम नवीनतम तकनीक और टिकाऊ सामग्री का उपयोग करते हैं।`
     },
     {
         image: service2,
-        skill: 'Leak Repairs and Detection',
-        alt: 'Leak Repairs and Detection',
-        summary: `We provide leak repairs and detection services for your plumbing system.
-        We also provide preventive maintenance services, such as inspections and safety checks,
-        to ensure that your plumbing system is in top condition.`
+        skill: 'लीक पाइप की मरम्मत और प्रतिस्थापन',
+        alt: 'लीक पाइप की मरम्मत और प्रतिस्थापन',
+        summary: `लीक हो चुके या खराब हो चुके पाइपलाइन की मरम्मत या प्रतिस्थापन करते हुए, 
+        हम आपके पानी की आपूर्ति को बिना किसी बाधा के सुचारू बनाए रखते हैं। हम लीक का सटीक पता लगाते हैं और त्वरित और कुशल समाधान प्रदान करते हैं।`
     },
     {
         image: service3,
-        skill: 'Water Heater Installations & repairs',
-        alt: 'Gas water heater installation',
-        summary: `We offer regular maintenance services to extend the life of the water heater.
-        Install and repair water heaters, diagnose faulty water heater units 
-        identify and replace worn or faulty parts troubleshoot issues with water pressure and temperature control 
-        `
+        skill: 'वाटर टैंक और पाइपलाइन कनेक्शन की स्थापना',
+        alt: 'वाटर टैंक और पाइपलाइन कनेक्शन की स्थापना',
+        summary: `हम नए वाटर टैंक और उससे जुड़े पाइपलाइन कनेक्शन की स्थापना में विशेषज्ञता रखते हैं, 
+        ताकि आपके घर की पानी की आवश्यकताओं को पूरा किया जा सके। हमारे विशेषज्ञ यह सुनिश्चित करते हैं कि सिस्टम बिना किसी रुकावट के निर्बाध रूप से कार्य करे। `
     },
     {
         image: service4,
-        skill: 'Pipeline Installations and Replacements',
-        alt: 'Drain Cleaning',
-        summary: `we offer pipeline installation and replacements services. We can install new pipelines
-        and replace old or broken ones. Our professionals have the necessary experience and knowledge
-        to ensure that all techniques and safety protocols are followed`
+        skill: 'बाथरूम रिमॉडलिंग और पाइपलाइन सुधार',
+        alt: 'बाथरूम रिमॉडलिंग और पाइपलाइन सुधार',
+        summary: `हमारा बाथरूम रिमॉडलिंग सेवा आपके बाथरूम को एक नया और आधुनिक रूप देने के लिए डिज़ाइन की गई है। 
+        इसमें नई फिटिंग्स, नल और पाइपलाइन की स्थापना और सुधार शामिल हैं, ताकि आपका बाथरूम अधिक कार्यात्मक और आकर्षक बने।`
     },
     {   
         image: service5,
-        skill: 'Bathroom Remodeling',
-        alt: 'Bathroom Remodeling',
-        summary: `we offer bathroom remodeling services We can renovate everything from the walls and flooring to the lighting and fixtures, ensuring that all materials used are of the highest quality.`
+        skill: 'नई वायरिंग सिस्टम की स्थापना',
+        alt: 'नई वायरिंग सिस्टम की स्थापना',
+        summary: `हम नए घरों और व्यवसायिक प्रतिष्ठानों में वायरिंग सिस्टम की स्थापना करते हैं, 
+        जिसमें सभी प्रकार की विद्युत आवश्यकताओं को ध्यान में रखते हुए सुरक्षित और प्रमाणित तारों का उपयोग किया जाता है। यह सेवा आपकी सुरक्षा और दीर्घकालिक विश्वसनीयता को प्राथमिकता देती है।`
     },
     {
         image: service6,
-        skill: 'Water Line Repair',
-        alt: 'Water Line Repair',
-        summary: `We offer water line repair services. We can also diagnose and repair any water
-        line issues quickly and effectively. We use the latest techniques and technologies to ensure
-        a safe, efficient, and long-lasting repair`
-    }
+        skill: 'शॉर्ट सर्किट और विद्युत पैनल की मरम्मत',
+        alt: 'शॉर्ट सर्किट और विद्युत पैनल की मरम्मत',
+        summary: `शॉर्ट सर्किट जैसी समस्याओं के समाधान के लिए, हम विद्युत पैनल और वायरिंग की मरम्मत सेवाएं प्रदान करते हैं, 
+        ताकि आपातकालीन स्थिति में भी आपका सिस्टम सुचारू रूप से कार्य करता रहे। हम आपके सिस्टम को आधुनिक और कोड-अनुकूल बनाते हैं।`
+    },
+    {   
+        image: service7,
+        skill: 'सॉकेट, स्विच और विद्युत उपकरणों की इंस्टालेशन',
+        alt: 'सॉकेट, स्विच और विद्युत उपकरणों की इंस्टालेशन',
+        summary: `हमारे विशेषज्ञ सॉकेट, स्विच और अन्य विद्युत उपकरणों की सही तरीके से फिटिंग और इंस्टालेशन करते हैं, 
+        जिससे आपकी जगह में बिजली के सही उपयोग को सुनिश्चित किया जा सके। हर इंस्टालेशन को सुरक्षा और सौंदर्य दोनों को ध्यान में रखकर किया जाता है।`
+    },
+    {   
+        image: service8,
+        skill: 'पुरानी वायरिंग की अदला-बदली और अपग्रेड',
+        alt: 'पुरानी वायरिंग की अदला-बदली और अपग्रेड',
+        summary: `यदि आपके घर या ऑफिस की वायरिंग पुरानी हो चुकी है, 
+        तो हम उसे नई वायरिंग से बदलकर आपके सिस्टम को सुरक्षित और अधिक कुशल बनाते हैं। इससे न केवल सुरक्षा बढ़ती है, बल्कि बिजली की खपत भी कम होती है।`
+    },
 ]
